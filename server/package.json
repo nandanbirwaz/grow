@@ -1,0 +1,17 @@
+{
+  "name": "growth-hub-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test --test-concurrency=1 \"test/*.test.js\""
+  },
+  "dependencies": {},
+  "optionalDependencies": {
+    "mongoose": "^8.5.0"
+  }
+}
